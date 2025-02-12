@@ -13,7 +13,18 @@ let name2="bob";
 console.log(name1<name2);
 console.log(10=='10');
 console.log(20>'10');
+console.log(NAN != NAN);
 
 //Stricktly equal to operator
 console.log(30==='30');
 console.log(null===undefined);
+
+
+//Logical operator
+let eligible=false;
+console.log(!eligible);
+
+let counter=10;
+console.log(!!counter);
+
+
