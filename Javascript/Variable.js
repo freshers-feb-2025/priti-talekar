@@ -10,3 +10,13 @@ var value=20;
 value=40;   //reassignment
 var value=50;  //reinitialization
 
+
+function show(){
+    let a=20;
+    var b=30;
+}
+console.log(a);     //not accessible
+console.log(b);     //not accessible
+
+
+
