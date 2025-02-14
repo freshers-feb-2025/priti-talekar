@@ -16,4 +16,7 @@ function show(){
       }
 }
 
-show();
+show();        //output:5 prints 5 time.
+
+
+
