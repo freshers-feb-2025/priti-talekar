@@ -11,7 +11,7 @@ function display(){
  } 
  
 var result=display();         //output:Hoisting concept
-console.log(result);          //undefined
+console.log(result);       //undefined    
 
 
 //arrow function hoisting 
@@ -21,3 +21,4 @@ var arrowfun=()=>{
     console.log("Arrow functions hoisting");
 };
 arrowfun();    
+

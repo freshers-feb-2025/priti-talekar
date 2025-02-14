@@ -9,7 +9,7 @@ for(let i=0;i<array.length;i++){
 
 //basic array operations 
 //1)push();add element at end
-array.push('compueter');
+array.push('computer');
 
 //2)pop();remove element from end
 array.pop();
@@ -24,7 +24,7 @@ function add(a, b) {
     return a + b;
 }
 
-// let sum = add;
+ let sum = add;
 
 // function average(a, b, fn) {
 //     return fn(a, b) / 2;

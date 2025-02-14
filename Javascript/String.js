@@ -12,3 +12,9 @@ let firstname="john";
 let message=`Hi, I'm ${firstname}`;
 
 console.log(message);
+
+
+let array=[2,3,4,5];
+array.map((i,e)=>{
+     console.log(e);
+})
