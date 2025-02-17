@@ -7,8 +7,12 @@
 
 
 function a(){
+    let p=20;
+    //console.log(k);        //not defined
     c();
     function c(){
+       // var k=10;
+          console.log(p);
           console.log(b);
     }
 }
